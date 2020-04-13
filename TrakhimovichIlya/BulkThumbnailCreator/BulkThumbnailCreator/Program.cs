@@ -35,6 +35,8 @@ namespace BulkThumbnailCreator
             //threadSaveImages.Start(pathToNewFolder);
 
             //Parallel.ForEach(bitmaps, manipulator.RenameResizeResaveImage); // second version: tasks 
+
+            // empty string
         }
     }
 }
