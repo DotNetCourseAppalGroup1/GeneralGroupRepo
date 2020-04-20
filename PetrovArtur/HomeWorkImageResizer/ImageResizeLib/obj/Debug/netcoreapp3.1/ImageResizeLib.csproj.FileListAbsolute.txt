@@ -1,0 +1,9 @@
+C:\Users\artur\source\repos\HomeWorkImageResizer\ImageResizeLib\bin\Debug\netcoreapp3.1\ImageResizeLib.deps.json
+C:\Users\artur\source\repos\HomeWorkImageResizer\ImageResizeLib\bin\Debug\netcoreapp3.1\ImageResizeLib.dll
+C:\Users\artur\source\repos\HomeWorkImageResizer\ImageResizeLib\obj\Debug\netcoreapp3.1\ImageResizeLib.csprojAssemblyReference.cache
+C:\Users\artur\source\repos\HomeWorkImageResizer\ImageResizeLib\obj\Debug\netcoreapp3.1\ImageResizeLib.AssemblyInfoInputs.cache
+C:\Users\artur\source\repos\HomeWorkImageResizer\ImageResizeLib\obj\Debug\netcoreapp3.1\ImageResizeLib.AssemblyInfo.cs
+C:\Users\artur\source\repos\HomeWorkImageResizer\ImageResizeLib\bin\Debug\netcoreapp3.1\ImageResizeLib.pdb
+C:\Users\artur\source\repos\HomeWorkImageResizer\ImageResizeLib\obj\Debug\netcoreapp3.1\ImageResizeLib.csproj.CoreCompileInputs.cache
+C:\Users\artur\source\repos\HomeWorkImageResizer\ImageResizeLib\obj\Debug\netcoreapp3.1\ImageResizeLib.dll
+C:\Users\artur\source\repos\HomeWorkImageResizer\ImageResizeLib\obj\Debug\netcoreapp3.1\ImageResizeLib.pdb
