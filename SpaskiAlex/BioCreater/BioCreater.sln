@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioCreater", "BioCreater.csproj", "{2FFBEB48-9E0A-47ED-B588-5786339FB770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "E:\samples\Biography\Models\Models.csproj", "{BB0E659A-CFE7-4C80-8B6D-0DB44C83950C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FFBEB48-9E0A-47ED-B588-5786339FB770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFBEB48-9E0A-47ED-B588-5786339FB770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFBEB48-9E0A-47ED-B588-5786339FB770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFBEB48-9E0A-47ED-B588-5786339FB770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0E659A-CFE7-4C80-8B6D-0DB44C83950C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0E659A-CFE7-4C80-8B6D-0DB44C83950C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0E659A-CFE7-4C80-8B6D-0DB44C83950C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0E659A-CFE7-4C80-8B6D-0DB44C83950C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {469EDF13-C907-45D9-AE73-AAD332169106}
+	EndGlobalSection
+EndGlobal
