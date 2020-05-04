@@ -252,12 +252,6 @@ AS
 GO
 	SELECT * FROM USERS;
 
-CREATE PROCEDURE ShowUserLikes
-	@userName
-AS
-	
-
-
 EXEC AddUser 'Tom2';
 EXEC AddComment '',4,'Bob';
 
