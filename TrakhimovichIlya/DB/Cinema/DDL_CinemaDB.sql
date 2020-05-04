@@ -80,5 +80,3 @@ ADD CONSTRAINT CK_Session_Session_End
 CHECK (Session_End > Session_Start) 
 GO
 
-
-
