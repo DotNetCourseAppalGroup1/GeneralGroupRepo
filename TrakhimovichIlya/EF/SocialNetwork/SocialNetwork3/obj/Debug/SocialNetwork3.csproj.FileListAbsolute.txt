@@ -1,0 +1,10 @@
+C:\Users\пк\source\repos\SocialNetwork3\SocialNetwork3\bin\Debug\SocialNetwork3.exe.config
+C:\Users\пк\source\repos\SocialNetwork3\SocialNetwork3\bin\Debug\SocialNetwork3.exe
+C:\Users\пк\source\repos\SocialNetwork3\SocialNetwork3\bin\Debug\SocialNetwork3.pdb
+C:\Users\пк\source\repos\SocialNetwork3\SocialNetwork3\bin\Debug\EntityFramework.dll
+C:\Users\пк\source\repos\SocialNetwork3\SocialNetwork3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\пк\source\repos\SocialNetwork3\SocialNetwork3\bin\Debug\EntityFramework.xml
+C:\Users\пк\source\repos\SocialNetwork3\SocialNetwork3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\пк\source\repos\SocialNetwork3\SocialNetwork3\obj\Debug\SocialNetwork3.csproj.CopyComplete
+C:\Users\пк\source\repos\SocialNetwork3\SocialNetwork3\obj\Debug\SocialNetwork3.exe
+C:\Users\пк\source\repos\SocialNetwork3\SocialNetwork3\obj\Debug\SocialNetwork3.pdb
