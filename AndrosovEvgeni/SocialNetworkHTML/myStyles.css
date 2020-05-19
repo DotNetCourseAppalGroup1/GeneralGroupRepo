@@ -1,0 +1,92 @@
+body {
+background: #c7b39b url(background.png);
+}
+.section_left {
+float: left;
+width: 15%;
+padding-right: 40px;
+font-size: 14px;
+color: green;
+font-weight: normal;
+box-sizing: content-box;
+}
+.section_right {
+float: left;
+width: 30%;
+font-size: 14px;
+color: #000000;
+font-weight: normal;
+}
+.friend_list {
+    font-size: 30px;
+    text-align: center;
+}
+.friendLink_collor {
+color: lightslategray;
+}
+.link_disable {
+    pointer-events: none;
+    color: gray;
+}
+.section_comment {
+float: left;
+width: 80%;
+height: 150px;
+font-size: 14px;
+color: royalblue;
+font-weight: normal;
+border: 3px solid;
+border-radius: 7px;
+border-color: mediumpurple;
+}
+.section_menu {
+float: left;
+width: 50%;
+font-size: 19px;
+color: #000000;
+font-weight: normal;
+text-align: right;
+}
+.avatar_image img {
+width: 100%;
+border-radius: 100%;
+}
+.section_divider {
+border-top: 1px solid #ebebeb;
+margin: 20px 0;
+}
+.section_inner {
+padding: 0 0 0 15px;
+}
+.section_row {
+margin-bottom: 10px;
+}
+.link_collor {
+color: white;
+}
+.section_message {
+float: left;
+width: 70%;
+height: 90px;
+font-size: 14px;
+color: #000000;
+font-weight: normal;
+border: 3px solid;
+border-radius: 7px;
+}
+.section_messages {
+float: left;
+width: 80%;
+padding-right: 10px;
+padding-left: 200px;
+font-size: 14px;
+color: #666666;
+font-weight: normal;
+box-sizing: content-box;
+}
+.trash_image img {
+width: 5%;
+border-radius: 100%;
+padding-top: 2.5%;
+margin-bottom: 50px;
+}
