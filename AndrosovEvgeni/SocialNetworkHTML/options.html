@@ -87,23 +87,28 @@
 				<form action="change_password.php" method="POST" onsubmit="return checkNewPassword();">
 					<div class="section_row">
 						<div class="section_left">Старый пароль: </div>
-						<p><input type="password" maxlength="25" size="40" value="*******"></p>
+						<p><input type="password" maxlength="25" size="40" required value="*******"></p>
 						<div style="clear: both;"></div>
 						<div class="section_left">Новый пароль: </div>
-						<p><input type="password" id="newPassword" name="newPassword" maxlength="25" size="40"
+						<p><input type="password" id="newPassword" name="newPassword" required maxlength="25" size="40"
 								value="*******"></p>
 						<div style="clear: both;"></div>
 						<div class="section_left">Повторите пароль: </div>
-						<p><input type="password" id="repeatNewPassword" maxlength="25" size="40" value="******"></p>
+						<p><input type="password" id="repeatNewPassword" maxlength="25" required size="40" value="******"></p>
 						<p style="text-align: center"><button type="submit">Сохранить изменения</button>
 						<div style="clear: both;"></div>
 					</div>
 				</form>
-				<div class="section_row">
-					<div class="section_left">Электронная почта:</div>
-					<p><input maxlength="25" size="40" value="ipr9nka@gmail.com"></p>
-					<p style="text-align: center"><button>Сохранить изменения</button>
-					<div style="clear: both;"></div>
-				</div>
+				<form method="POST" action = "change_mail.php">
+			<div class="section_row">
+				<div class="section_left">Электронная почта:</div>
+				<p><span id="myMailLabel" onClick="hideLabel('myMailLabel','myMailInput');">ipr9nka@gmail.com</span>
+				</p>
+				<p><input type="text" name="myMailInput" id="myMailInput"
+						onblur="saveLabel('myMailInput','myMailLabel');" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" required value="ipr9nka@gmail.com"
+						style="display: none"></p>
+				<div style="clear: both;"></div>
+			</div>
+				</form>
 			</div>
 </body>
