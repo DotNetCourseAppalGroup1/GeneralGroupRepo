@@ -40,9 +40,9 @@
 			<form action="change_name.php" name="changeNameForm" method="POST" onsubmit="return message();">
 				<div class="section_row">
 					<div class="section_left">Имя: </div>
-					<p><span id="nameLabel" onClick="hideLabel('nameLabel','nameInput');">Евгений</span></p>
+					<p><span id="nameLabel" onClick="hideLabel('nameLabel','nameInput');" style = "color:white">Евгений</span></p>
 					<p><input type="text" name="nameInput" id="nameInput" onblur="saveLabel('nameInput','nameLabel');"
-							value="Евгений" style="display: none"></p>
+							value="Евгений" style="display: none;"></p>
 					<div style="clear: both;"></div>
 				</div>
 			</form>
@@ -51,7 +51,7 @@
 				<div class="section_row">
 					<div class="section_left">Фамилия:</div>
 					<p><span id="secondNameLabel"
-							onClick="hideLabel('secondNameLabel','secondNameInput');">Андросов</span></p>
+							onClick="hideLabel('secondNameLabel','secondNameInput');"style = "color:white">Андросов</span></p>
 					<p><input type="text" name="secondNameInput" id="secondNameInput"
 							onblur="saveLabel('secondNameInput','secondNameLabel');" value="Андросов"
 							style="display: none"></p>
@@ -62,7 +62,7 @@
 			<form action="change_birthday.php" method="POST" onsubmit="return message();">
 				<div class="section_row">
 					<div class="section_left">Дата рождения:</div>
-					<p><span id="birthdayLabel" onClick="hideLabel('birthdayLabel','birthdayInput');">1997-07-30</span>
+					<p><span id="birthdayLabel" onClick="hideLabel('birthdayLabel','birthdayInput');"style = "color:white">1997-07-30</span>
 					</p>
 					<p><input type="date" name="birthdayInput" id="birthdayInput"
 							onblur="saveLabel('birthdayInput','birthdayLabel');" value="1997-07-30"
@@ -74,7 +74,7 @@
 			</form action="change_mySite.php" method="POST" onsubmit="return message();">
 			<div class="section_row">
 				<div class="section_left">Личный сайт:</div>
-				<p><span id="myLinkLabel" onClick="hideLabel('myLinkLabel','myLinkInput');">www.github.com/ipr9n</span>
+				<p><span id="myLinkLabel" onClick="hideLabel('myLinkLabel','myLinkInput');"style = "color:white">www.github.com/ipr9n</span>
 				</p>
 				<p><input type="text" name="myLinkInput" id="myLinkInput"
 						onblur="saveLabel('myLinkInput','myLinkLabel');" value="www.github.com/ipr9n"
@@ -102,7 +102,7 @@
 				<form method="POST" action = "change_mail.php">
 			<div class="section_row">
 				<div class="section_left">Электронная почта:</div>
-				<p><span id="myMailLabel" onClick="hideLabel('myMailLabel','myMailInput');">ipr9nka@gmail.com</span>
+				<p><span id="myMailLabel" onClick="hideLabel('myMailLabel','myMailInput');"style = "color:white">ipr9nka@gmail.com</span>
 				</p>
 				<p><input type="text" name="myMailInput" id="myMailInput"
 						onblur="saveLabel('myMailInput','myMailLabel');" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" required value="ipr9nka@gmail.com"
