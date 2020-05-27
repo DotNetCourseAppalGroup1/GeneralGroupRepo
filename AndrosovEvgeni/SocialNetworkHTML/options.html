@@ -1,79 +1,109 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<meta charset="UTF-8" />
-		<title>Настройки</title>
-		<link rel="stylesheet" type="text/css" href="myStyles.css">
-	</head>
-	<body style = 
-		"    padding-left: 30%;
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Настройки</title>
+	<link rel="stylesheet" type="text/css" href="myStyles.css">
+	<script src="scripts.js"></script>
+</head>
+
+<body style="    padding-left: 30%;
     padding-right: 30%;
     padding-top: 20px;">
-		<div class = "section_inner">
-			
-			<div><h1 style = " color: white; text-align: center;">Настройки</h1></div>
-			<div class = "section_menu" style = "    width: 100%;">
-				<a class = "link_collor" href = "index.html">Мой профиль<br/></a>
-				<a class = "link_collor" href = "messages.html">Сообщения<br/></a>
-				<a class = "link_collor" href = "friends.html">Контакты<br/></a>
-				<a class = "link_collor" href = "options.html">Настройки<br/></a>
-<a class = "link_disable" href = "">Группы<br/></a>
+
+
+
+	<div class="section_inner">
+
+		<div class="section_options">
+			<h1>Настройки</h1>
+		</div>
+		<div class="section_menu" style="    width: 100%;">
+			<a class="link_collor" href="index.html">Мой профиль<br /></a>
+			<a class="link_collor" href="messages.html">Сообщения<br /></a>
+			<a class="link_collor" href="friends.html">Контакты<br /></a>
+			<a class="link_collor" href="options.html">Настройки<br /></a>
+			<a class="link_disable" href="">Группы<br /></a>
+		</div>
+		<div style="clear: both; height: 34px"></div>
+	</div>
+	<div class="section_divider"></div>
+
+	<div class="section_options_inner" style="padding-left: 50px;">
+		<h2 style="color: white;">Общая информация</h1>
+			<div class="section_row">
+				<div class="section_left">Аватар: </div>
+				<p><input type="file" maxlength="25" size="40"></p>
+				<div style="clear: both;"></div>
 			</div>
-			<div style="clear: both; height: 34px"></div>
-		</div>
-		<div class = "section_divider"></div>
+			<form action="change_name.php" name="changeNameForm" method="POST" onsubmit="return message();">
+				<div class="section_row">
+					<div class="section_left">Имя: </div>
+					<p><span id="nameLabel" onClick="hideLabel('nameLabel','nameInput');">Евгений</span></p>
+					<p><input type="text" name="nameInput" id="nameInput" onblur="saveLabel('nameInput','nameLabel');"
+							value="Евгений" style="display: none"></p>
+					<div style="clear: both;"></div>
+				</div>
+			</form>
 
-<div class = "section_inner" style = "padding-left: 50px;">
-		<h2 style = "color: white;">Общая информация</h1>
-<div class="section_row">
-			<div class="section_left">Аватар: </div>
-			 <p><input type = "file" maxlength="25" size="40"></p>
-			<div style="clear: both;"></div>
-		</div>
-		<div class="section_row">
-			<div class="section_left">Имя: </div>
-			 <p><input maxlength="25" size="40" value="Евгений"></p>
-			<p style="text-align: center"><button>Сохранить изменения</button>
-			<div style="clear: both;"></div>
-		</div>
-		<div class="section_row">
-			<div class="section_left">Фамилия:</div>
-			 <p><input maxlength="25" size="40" value="Андросов"></p>
-			<p style="text-align: center"><button>Сохранить изменения</button>
-			<div style="clear: both;"></div>
-		</div>
-		<div class="section_row">
-			<div class="section_left">Дата рождения:</div>
-			<p><input maxlength="25" size="40" value="30.07"></p>
-			<p style="text-align: center"><button>Сохранить изменения</button>
-			<div style="clear: both;"></div>
-		</div>
-<div class="section_row">
-			<div class="section_left">Личный сайт:</div>
-			<p><input maxlength="25" size="40" value="github.com/ipr9n"></p>
-			<p style="text-align: center"><button>Сохранить изменения</button>
-			<div style="clear: both;"></div>
-		</div>
-		<div class="section_divider">
-		<h2 style = "color: white;">Безопасность</h2>
-	<div class="section_row">
-			<div class="section_left">Старый пароль: </div>
-			 <p><input type = "password" maxlength="25" size="40" value="*******"></p>
-			<div style="clear: both;"></div>
-<div class="section_left">Новый пароль: </div>
-			 <p><input type = "password" maxlength="25" size="40" value="*******"></p>
-			<div style="clear: both;"></div>
-<div class="section_left">Повторите пароль: </div>
-			 <p><input type = "password" maxlength="25" size="40" value="*******"></p>
-			<p style="text-align: center"><button>Сохранить изменения</button>
-			<div style="clear: both;"></div>
-		</div>
-		<div class="section_row">
-			<div class="section_left">Электронная почта:</div>
-			 <p><input maxlength="25" size="40" value="ipr9nka@gmail.com"></p>
-			<p style="text-align: center"><button>Сохранить изменения</button>
-			<div style="clear: both;"></div>
-		</div>
-		</div>
+			<form action="change_secondName.php" method="POST" onsubmit="return message();">
+				<div class="section_row">
+					<div class="section_left">Фамилия:</div>
+					<p><span id="secondNameLabel"
+							onClick="hideLabel('secondNameLabel','secondNameInput');">Андросов</span></p>
+					<p><input type="text" name="secondNameInput" id="secondNameInput"
+							onblur="saveLabel('secondNameInput','secondNameLabel');" value="Андросов"
+							style="display: none"></p>
+					<div style="clear: both;"></div>
+				</div>
+			</form>
 
+			<form action="change_birthday.php" method="POST" onsubmit="return message();">
+				<div class="section_row">
+					<div class="section_left">Дата рождения:</div>
+					<p><span id="birthdayLabel" onClick="hideLabel('birthdayLabel','birthdayInput');">1997-07-30</span>
+					</p>
+					<p><input type="date" name="birthdayInput" id="birthdayInput"
+							onblur="saveLabel('birthdayInput','birthdayLabel');" value="1997-07-30"
+							style="display: none"></p>
+					<div style="clear: both;"></div>
+				</div>
+			</form>
+
+			</form action="change_mySite.php" method="POST" onsubmit="return message();">
+			<div class="section_row">
+				<div class="section_left">Личный сайт:</div>
+				<p><span id="myLinkLabel" onClick="hideLabel('myLinkLabel','myLinkInput');">www.github.com/ipr9n</span>
+				</p>
+				<p><input type="text" name="myLinkInput" id="myLinkInput"
+						onblur="saveLabel('myLinkInput','myLinkLabel');" value="www.github.com/ipr9n"
+						style="display: none"></p>
+				<div style="clear: both;"></div>
+			</div>
+			</form>
+			<div class="section_divider">
+				<h2 style="color: white;">Безопасность</h2>
+				<form action="change_password.php" method="POST" onsubmit="return checkNewPassword();">
+					<div class="section_row">
+						<div class="section_left">Старый пароль: </div>
+						<p><input type="password" maxlength="25" size="40" value="*******"></p>
+						<div style="clear: both;"></div>
+						<div class="section_left">Новый пароль: </div>
+						<p><input type="password" id="newPassword" name="newPassword" maxlength="25" size="40"
+								value="*******"></p>
+						<div style="clear: both;"></div>
+						<div class="section_left">Повторите пароль: </div>
+						<p><input type="password" id="repeatNewPassword" maxlength="25" size="40" value="******"></p>
+						<p style="text-align: center"><button type="submit">Сохранить изменения</button>
+						<div style="clear: both;"></div>
+					</div>
+				</form>
+				<div class="section_row">
+					<div class="section_left">Электронная почта:</div>
+					<p><input maxlength="25" size="40" value="ipr9nka@gmail.com"></p>
+					<p style="text-align: center"><button>Сохранить изменения</button>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
 </body>
