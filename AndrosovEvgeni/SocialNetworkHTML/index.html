@@ -5,7 +5,7 @@
 	<meta charset="UTF-8" />
 	<title>Профиль</title>
 	<link rel="stylesheet" type="text/css" href="myStyles.css">
-	<script src="scripts.js"></script>
+	<script src ="scripts\wallGenerator.js"></script>
 </head>
 
 <body style="padding-left: 200px;
@@ -20,10 +20,10 @@
 				Андросов<br>
 				Евгений Петрович <br>
 			</h1>
-			<p style=" font-size: 15px; color: white;">День рождения: 30.07</p>
-			<p style=" font-size: 15px; color: white;">Город: Минск</p>
-			<p style=" font-size: 15px; color: white;">Сайт: <a href="www.github.com/ipr9n">github</a></p>
-			<p style=" font-size: 15px; color: white;">День рождения: 30.07</p>
+			<p style=" font-size: 15px;">День рождения: 30.07</p>
+			<p style=" font-size: 15px;">Город: Минск</p>
+			<p style=" font-size: 15px;">Сайт: <a href="www.github.com/ipr9n">github</a></p>
+			<p style=" font-size: 15px;">День рождения: 30.07</p>
 		</div>
 		<div class="section_menu">
 			<a class="link_collor" href="index.html">Мой профиль<br /></a>
@@ -35,56 +35,16 @@
 		<div style="clear: both; height: 34px"></div>
 	</div>
 	<div class="section_divider"></div>
-	<div class="section_inner" style="    padding-left: 50px;">
+	<div class="section_inner" id = "wall" style="padding-left: 50px;">
 		<h1 style="color: white;">Стена</h1>
 
 		<form action="post.php" method="POST">
 			<div class="section_row" style="height: 200px;">
-				<input type="textarea" style="height: 100%;width: 100%; background: bottom;">
+				<input type="textarea" id = "textarea" style="height: 100%;width: 100%; background: bottom; color: white">
 				<input type="submit">
 				<div style="clear: both;"></div>
 			</div>
 		</form>
-
-
-
-		<div class="section_divider"></div>
-		<div class="section_row">
-			<div class="section_left">Пользователь</div>
-			<div class="section_comment" id="div1">Text</div>
-			<div style="clear: both;"></div>
-		</div>
-		<div class="section_divider"></div>
-		<div class="section_row">
-			<div class="section_left">Пользователь</div>
-			<div class="section_comment" id="div2">Текст коммента</div>
-			<div style="clear: both;"></div>
-		</div>
-		<div class="section_divider"></div>
-		<div class="section_row">
-			<div class="section_left">Пользователь</div>
-			<div class="section_comment" id="div3">Текст коммента</div>
-			<div style="clear: both;"></div>
-		</div>
-		<div class="section_divider"></div>
-		<div class="section_row">
-			<div class="section_left">Пользователь</div>
-			<div class="section_comment" id="div4">Текст коммента</div>
-			<div style="clear: both;"></div>
-		</div>
-		<div class="section_divider"></div>
-		<div class="section_row">
-			<div class="section_left">Пользователь</div>
-			<div class="section_comment">Текст коммента</div>
-			<div style="clear: both;"></div>
-		</div>
-		<div class="section_divider"></div>
-		<div class="section_row">
-			<div class="section_left">Пользователь</div>
-			<div class="section_comment">Текст коммента</div>
-			<div style="clear: both;"></div>
-		</div>
-		<div class="section_divider"></div>
 </body>
 
 </html>

@@ -1,25 +1,26 @@
-function hideLabel(labelToHide, inputToDisplay) {
-	document.getElementById(labelToHide).style.display = "none";
-	document.getElementById(inputToDisplay).style.display = "block";
-	document.getElementById(inputToDisplay).focus();
-}
-function saveLabel(inputLabelToHide, labelToDisplay) {
-	document.getElementById(labelToDisplay).style.display = "block";
-	document.getElementById(labelToDisplay).innerHTML = document.getElementById(inputLabelToHide).value;
-	document.getElementById(inputLabelToHide).style.display = "none";
-}
-function message(e) {
-	alert('Изменения сохранены');
-	return false;
-}
-function checkNewPassword(e) {
-	if (document.getElementById("newPassword").value != document.getElementById("repeatNewPassword").value) {
-		alert('Проверьте новый пароль');
-		return false;
-	}
-}
 
 function init() {
+
+    var names = ["Шамякин Иосиф",
+        "Трындин Ростислав",
+        "Круглов Георгий",
+        "Белолипецкий Семен",
+        "Ястремский Евгений",
+        "Кутяков Сократ",
+        "Яндиев Мечислав",
+        "Семенов Захар",
+        "Набадчиков Кирилл",
+        "Шинский Прокофий",
+        "Табаков Илья",
+        "Хигир Лавр",
+        "Ювелев Ульян",
+        "Саянович Эммануил",
+        "Михеев Алексей",
+        "Арсеиньев Никанор",
+        "Наумов Максим",
+        "Ситников Арсений",
+        "Яговенко Дементий",
+        "Хабалов Аркадий"];
 
 	var getRandomText = function a() {
 		var h = ["Товарищи,", "С другой стороны", "Равным образом", "Не следует, однако, забывать, что", "Таким образом,", "Повседневная практика показывает, что", "Значимость этих проблем настолько очевидна, что", "Разнообразный и богатый опыт", "Задача организации, в особенности же", "Идейные соображения высшего порядка, а также"];
@@ -33,11 +34,45 @@ function init() {
 		var c = h[k] + " " + f[j] + " " + e[i] + " " + d[g] + "!";
 		return c
 	};
+	var getRandomAvatarPath = function a(){
+		var random = Math.floor(Math.random() * (16)) + 1;
+		var c = "avatars/users-"+random+".svg";
+		return c
+    };
 
-	document.getElementById("div1").innerHTML = getRandomText();
-	document.getElementById("div2").innerHTML = getRandomText();
-	document.getElementById("div3").innerHTML = getRandomText();
-	document.getElementById("div4").innerHTML = getRandomText();
+    for(let i = 1; i<200; i++)
+	{
+        var divider = document.createElement("DIV");
+        divider.setAttribute("class","section_divider");
+        document.getElementById("wall").appendChild(divider);
+        
+        var row = document.createElement("div");
+        row.setAttribute("class","section_row");
+        row.setAttribute("id","row"+i);
+        document.getElementById("wall").appendChild(row);
+
+        var left = document.createElement("DIV");
+        left.innerHTML = names[Math.floor(Math.random() * (19)) + 1];
+        left.setAttribute("id","left"+i);
+        left.setAttribute("class","section_left");
+        document.getElementById("row"+i).appendChild(left);
+
+        var ava = document.createElement("img");
+        ava.src = getRandomAvatarPath();
+        ava.style.width = "100%";
+        ava.style.borderRadius = "100%";
+        document.getElementById("left"+i).appendChild(ava);
+
+        var comment = document.createElement("div");
+        comment.setAttribute("class","section_comment");
+        comment.setAttribute("id","comment"+i);
+        comment.innerHTML = getRandomText();
+        document.getElementById("row"+i).appendChild(comment);
+
+        var clear = document.createElement("div");
+        clear.style.clear = "both";
+        document.getElementById("row"+i).appendChild(clear);
+
+    }
 }
-
-window.onload = init;
+    window.onload = init;

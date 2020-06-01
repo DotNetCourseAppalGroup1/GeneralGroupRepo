@@ -1,5 +1,8 @@
 body {
-background: #c7b39b url(background.png);
+background-color: black;
+}
+p{
+  color: white;
 }
 .section_left {
 float: left;
@@ -9,6 +12,14 @@ font-size: 14px;
 color: green;
 font-weight: normal;
 box-sizing: content-box;
+}
+.comment_avatar img{
+width: 100%;
+}
+.friend_avatar img{
+  width: 25%;
+  border: 1px solid;
+  border-radius: 100%;
 }
 .section_options {
 color: white;
@@ -61,19 +72,18 @@ color: lightslategray;
 }
 .section_comment {
 float: left;
-width: 80%;
+width: 60%;
 height: 150px;
 font-size: 14px;
-color: royalblue;
+color: white;
 font-weight: normal;
-border: 3px solid;
+border: 1px solid white;
 border-radius: 7px;
-border-color: mediumpurple;
 }
 .section_menu {
 float: left;
-width: 20%;
 font-size: 19px;
+margin-left: 10%;
 color: #000000;
 font-weight: normal;
 text-align: right;
@@ -116,7 +126,7 @@ height: 90px;
 font-size: 14px;
 color: #000000;
 font-weight: normal;
-border: 3px solid;
+border: 1px solid white;
 border-radius: 7px;
 }
 .section_messages {
