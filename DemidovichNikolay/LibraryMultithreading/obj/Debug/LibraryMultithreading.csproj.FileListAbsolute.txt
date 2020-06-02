@@ -1,0 +1,6 @@
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\LibraryMultithreading\bin\Debug\LibraryMultithreading.dll
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\LibraryMultithreading\bin\Debug\LibraryMultithreading.pdb
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\LibraryMultithreading\obj\Debug\LibraryMultithreading.csprojAssemblyReference.cache
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\LibraryMultithreading\obj\Debug\LibraryMultithreading.csproj.CoreCompileInputs.cache
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\LibraryMultithreading\obj\Debug\LibraryMultithreading.dll
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\LibraryMultithreading\obj\Debug\LibraryMultithreading.pdb

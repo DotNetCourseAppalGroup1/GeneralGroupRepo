@@ -1,0 +1,10 @@
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\MultithreadingResizeJPG\bin\Debug\MultithreadingResizeJPG.exe.config
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\MultithreadingResizeJPG\bin\Debug\MultithreadingResizeJPG.exe
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\MultithreadingResizeJPG\bin\Debug\MultithreadingResizeJPG.pdb
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\MultithreadingResizeJPG\bin\Debug\LibraryMultithreading.dll
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\MultithreadingResizeJPG\bin\Debug\LibraryMultithreading.pdb
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\MultithreadingResizeJPG\obj\Debug\MultithreadingResizeJPG.csprojAssemblyReference.cache
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\MultithreadingResizeJPG\obj\Debug\MultithreadingResizeJPG.csproj.CoreCompileInputs.cache
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\MultithreadingResizeJPG\obj\Debug\MultithreadingResizeJPG.csproj.CopyComplete
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\MultithreadingResizeJPG\obj\Debug\MultithreadingResizeJPG.exe
+C:\Users\Mikalai\source\repos\MultithreadingResizeJPG\MultithreadingResizeJPG\obj\Debug\MultithreadingResizeJPG.pdb
