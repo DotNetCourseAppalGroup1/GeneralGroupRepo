@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>User page</title>
+      <meta name="description" content="User page of social network.">
+      <meta name="author" content="Aliaksei Spasski">
+      <style>
+          a:link    {color:blue; text-decoration:frame}
+          a:visited {color:pink; text-decoration:frame}
+          a:hover   {color:red; text-decoration:frame}
+          a:active  {color:yellow; text-decoration:frame}
+          ul#menu li 
+		     {
+                display:inline;
+             } 	
+          body 
+		  { 
+		     background: url(Background2.jpg) ; 
+		     color: #fff; 
+		  }		         
+      </style>  
+   </head>
+   <body>
+      <div>
+         <img src="UserPicture.jpg" alt="User picture" width="300" height="410" 
+	     style="float:left; margin-right:10px;">
+	     <h1 ID="UserName" > Алексей Спасский </h1>
+	     <ul>
+	        <iframe src="Groups.html" width="330" height="350"></iframe>
+	        <iframe src="Contacts.html" width="330" height="350"></iframe>
+		    <iframe src="Messages.html" width="330" height="350"></iframe>
+	     </ul>
+       </div>
+	   <div style="float:right; margin-right:10px; align=left">
+	      Here should be @Name wall
+	   </div>	
+	   <div>
+	      <details >
+	         <summary>USER INFORMATION</summary>
+	            <ul> <dt><u>Date of birth</u></dt> <dd ID="DateOfBirth">dd.mm,yy</dd> </ul>
+	            <ul> <dt><u>Country</u></dt> <dd ID="Country"> Belarus </dd></ul>
+				<ul> <dt><u>email</u></dt> <dd ID="EMail"> lex-4123@mail.ru </dd></ul>
+	            <ul> <dt><u>Langage</u></dt> <dd ID="Languages"> Russian, English </dd></ul>
+	            <ul> <dt><u>Personal info</u></dt> <dd ID="PersonalInfo"> 
+				<textarea style="background: gray" maxlength="300">
+                    текст
+                </textarea>
+				</dd> </ul>
+	      </details>
+	      <details>
+	         <summary>SETTINGS</summary>
+	         <iframe src="Settings.html" width="300" height="500" 
+		     style="float:left; margin-right:10px;" > </iframe>		 
+	      </details>   
+	   </div>	  
+   </body>
+</html>
