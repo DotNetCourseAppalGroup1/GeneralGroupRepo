@@ -1,0 +1,106 @@
+<!-- <!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Профиль</title>
+    <link rel="stylesheet" type="text/css" href="Styles\mystyles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <script src="scripts\script.js"></script>
+
+
+
+</head>
+
+<body style="padding-left: 200px;
+		padding-right: 200px;
+        padding-top: 20px;
+        min-height: 700px;
+        min-width: 700px;">
+
+
+<div class="btn-group-vertical" role="group" aria-label="Basic example" style=" position: absolute;
+right: 50px;
+top: 50px;">
+        <button type="button" class="btn btn-secondary" onclick="boxSort(1);">SORT ascending</button>
+        <button type="button" class="btn btn-secondary" onclick="boxSort(2);">SORT descending</button>
+        <button type="button" class="btn btn-secondary" onclick="addBlock();">ADD</button>
+        <button type="button" class="btn btn-secondary" onclick="resetAll();">Reset</button>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="background: white;  border: none;">
+                <h1>Header</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" id="goods">
+
+        </div>
+    </div>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Index</title>
+
+    <link rel="stylesheet" type="text/css" href="Styles\mystyles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <script src="scripts\script.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-center">
+				Header
+			</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-9 bordered">
+			<div class="row" id = "goods">
+
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="btn-group btn-group-vertical" role="group">
+				 
+                <button type="button" class="btn btn-secondary" onclick="boxSort(1);">SORT ascending</button>
+                <button type="button" class="btn btn-secondary" onclick="boxSort(2);">SORT descending</button>
+                <button type="button" class="btn btn-secondary" onclick="addBlock();">ADD</button>
+                <button type="button" class="btn btn-secondary" onclick="resetAll();">Reset</button>
+			</div>
+		</div>
+	</div>
+</div>
+  </body>
+</html>

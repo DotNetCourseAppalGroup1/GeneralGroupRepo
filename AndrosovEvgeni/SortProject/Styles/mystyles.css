@@ -1,0 +1,21 @@
+.row>div{
+    background-clip: content-box;
+    min-height: 300px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.bordered{
+    border: 1px solid black;
+}
+
+.row {
+    border-left: 0;
+    border-right: 0;
+}
+
+.cross {
+    position: absolute;
+    right: 20px;
+    color: red;
+}
