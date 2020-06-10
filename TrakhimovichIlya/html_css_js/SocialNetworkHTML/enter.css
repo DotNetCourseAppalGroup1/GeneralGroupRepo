@@ -1,0 +1,145 @@
+body{
+  margin: 0px;
+  color: rgb(20, 16, 16);
+  background-color: white;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  max-width: 1170px; 
+  margin: 0 auto; 
+}
+
+/* Header 
+================================*/
+
+.header .container{
+  background-color: rgb(239, 239, 250);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.header_inner{
+  padding: 5px 0;  
+  border-bottom: 1px solid rgb(43, 11, 48);  
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  color: rgb(60, 32, 97);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+h5{
+  font-size: 17px;
+  color: rgb(63, 21, 73);
+  text-transform: uppercase;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.header_logo{  
+  align-items: center;
+}
+
+.header_nav{
+  display: flex;
+  justify-content: center;  
+  padding: 15px 0;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  border-bottom: 1px solid rgb(43, 11, 48);
+}
+
+.nav_link{
+  margin-left: 50px;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: 0.5;
+  transition: opacity .1s linear;
+}
+
+.nav_link:hover{
+  opacity: 1;
+}
+
+/* Сontent 
+================================*/
+
+.content{
+  min-height: 593px;
+}
+
+.content .container{
+  min-height: 593px;
+}
+
+.registration{
+  min-height: 593px;
+  width: 60%;
+  float: left; 
+  border-right: 1px solid black; 
+}
+
+.registration_title{
+  text-transform: uppercase;
+  color: rgb(19, 53, 61);
+  margin-left: 300px;
+}
+
+.reg_form{
+  margin-left: 250px;
+}
+
+.btn-send{
+  margin-left: 100px;
+}
+
+.enter{
+  min-height: 593px;
+  width: 40%;
+  float: left;
+}
+
+.enter_title{
+  margin-left: 40px;
+}
+
+.enter_form{
+  margin-left: 50px;
+}
+
+/* footer 
+================================*/
+
+.footer{
+  margin-top: 0px;  
+}
+
+.footer .container{
+  border-top: 1px solid rgb(15, 40, 41);
+  background-color: #3a3e64;
+}
+
+.footer_inner{
+  display: flex;
+  justify-content: center;
+}
+
+.copyright{
+  text-align: center;
+}
