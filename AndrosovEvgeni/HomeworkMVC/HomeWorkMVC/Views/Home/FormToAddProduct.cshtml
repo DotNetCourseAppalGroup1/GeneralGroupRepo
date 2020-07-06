@@ -1,0 +1,7 @@
+﻿@model Services.ViewModels.ProductViewModel
+
+@using (Html.BeginForm("ProductAdd", "Home"))
+{
+    @Html.EditorForModel(Model);
+    <input type="submit" value="Добавить продукт" />
+}
