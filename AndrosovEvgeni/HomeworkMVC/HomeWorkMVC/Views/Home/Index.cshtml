@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using Services.ViewModels
+@model IEnumerable<Services.ViewModels.ProductViewModel>
+
+<div class="row">
+    <div class="col-md-12">
+        
+        @using (Html.BeginForm("Sort", "Home"))
+        {
+            @Html.TextBox("inputCategory");
+            <input type="submit" value="Поиск по категории" />
+        }
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        #
+                    </th>
+                    <th>
+                        Product Name
+                    </th>
+                    <th>
+                        Category
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var m in Model)
+                {
+                    <tr>
+                        <td>
+                            @m.Id
+                        </td>
+                        <td>
+                            @m.Name
+                        </td>
+                        <td>
+                            @m.Category
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-6">
+        <button onclick="location.href='@Url.Action("Unlogin", "Home")'">Выйти из аккаунта</button>
+
+        @Html.Partial("FormToAddProduct", new ProductViewModel())
+
+    </div>
+</div>
+
